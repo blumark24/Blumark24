@@ -1,16 +1,90 @@
-## Hi there 👋
+# Blumark Marketing Agency
 
-<!--
-**blumark24/Blumark24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**وكالة تسويق رقمي سعودية متخصصة في حلول الذكاء الاصطناعي للأعمال**
 
-Here are some ideas to get you started:
+موقع هبوط احترافي ومتقدم لوكالة Blumark، يقدم حلول AI متكاملة للشركات والمطاعم والعيادات والخدمات في المملكة العربية السعودية، مع التركيز على مواكبة **رؤية 2030**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🌟 نظرة عامة
+
+الموقع عبارة عن صفحة هبوط (Landing Page) حديثة ومتجاوبة بالكامل، مصممة بأحدث تقنيات الويب لعام 2026، وتتميز بـ:
+
+- تصميم **Glassmorphism** فاخر مع تأثيرات نيون وإضاءة ديناميكية
+- شبكة عصبية (Neural Network) متحركة في الخلفية باستخدام Canvas
+- تفاعل ضوء الماوس (Mouse Light Orb)
+- بوت شات ذكي مدمج (Blumark AI Chatbot)
+- 3 باقات تسعير واضحة: **START** (399 ريال)، **GROWTH** (999 ريال/شهر)، **PRO MAX** (1999 ريال/شهر)
+- 7 خدمات رئيسية في شكل Bento Grid
+- آراء عملاء حقيقية (Testimonials)
+- قسم خاص برؤية 2030
+- نموذج اتصال متكامل مع ربط مباشر بواتساب
+
+---
+
+## 📁 هيكل المشروع:
+> **ملاحظة**: المشروع عبارة عن ملف HTML واحد مستقل (Single-File Application) — لا يحتاج إلى سيرفر أو بناء.
+
+---
+
+## 🚀 المميزات التقنية
+
+| الميزة                  | الوصف |
+|-------------------------|-------|
+| **Tailwind CSS**        | تصميم سريع ومتجاوب عبر CDN |
+| **Canvas Neural Net**   | 80 جسيم + خطوط اتصال متحركة |
+| **Glassmorphism**       | تأثيرات زجاجية مع blur وحدود نيون |
+| **Animations**          | FadeInUp, Float, NeonPulse, Shimmer, ParticleFloat |
+| **Scroll Reveal**       | IntersectionObserver للعناصر المتحركة |
+| **Chatbot**             | ردود ذكية + أزرار سريعة + ربط واتساب |
+| **Responsive**          | يدعم الجوال والتابلت والديسكتوب بالكامل |
+| **Arabic RTL**          | دعم كامل للغة العربية مع خطوط Tajawal + Cairo |
+
+---
+
+## 🛠️ كيفية التشغيل
+
+1. افتح ملف `index.html` مباشرة في أي متصفح حديث (Chrome, Firefox, Edge, Safari).
+2. لا يحتاج تثبيت أو إعدادات — كل شيء مضمن (Tailwind عبر CDN + خطوط Google).
+3. للاختبار المحلي:
+   ```bash
+   # في مجلد artifacts
+   python3 -m http.server 8000
+   # أو
+   npx serve .
+
+   -----
+   📞 معلومات الاتصال (من الموقع)
+•  واتساب: +966 50 700 6849
+•  البريد: info@blumark.sa
+•  الموقع: المملكة العربية السعودية 🇸🇦
+•  ساعات العمل: 24/7
+
+💡 الباقات الرئيسية
+
+----
+
+🎨 التصميم والألوان
+•  الألوان الرئيسية:
+	•  Navy: #0A0F2C
+	•  Neon Blue: #00A8FF
+	•  Orange: #FF7A00
+	•  Green: #10B981
+•  الخطوط: Tajawal + Cairo (Google Fonts)
+
+📜 الترخيص
+© 2026 Blumark Marketing Agency — جميع الحقوق محفوظة.
+
+🤝 المساهمة
+هذا المشروع مخصص للاستخدام الداخلي/التسويقي لوكالة Blumark.
+لأي تعديلات أو استفسارات، تواصل مع الفريق عبر واتساب أو البريد الإلكتروني.
+
+صُنع بحب في المملكة العربية السعودية 🇸🇦 — لدعم التحول الرقمي ورؤية 2030
+
+آخر تحديث: أبريل 2026
+
+.
+
+---
+
+**. ⚡️⃤🇸🇦 .**
