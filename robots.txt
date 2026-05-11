@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blumark24.github.io/Blumark24/sitemap.xml
