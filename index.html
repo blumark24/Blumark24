@@ -5,9 +5,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blumark Marketing Agency | حلول الذكاء الاصطناعي للأعمال</title>
+<title>Blumark24 | حلول الذكاء الاصطناعي والتسويق الرقمي في السعودية</title>
+<meta name="description" content="Blumark24 شركة سعودية تقدم حلول الذكاء الاصطناعي للأعمال، بوتات واتساب AI، أتمتة التسويق والمبيعات، تصميم المواقع الاحترافية، وتحسين الظهور الرقمي للشركات في السعودية.">
+<meta name="keywords" content="Blumark24, بلومارك, ذكاء اصطناعي, حلول الذكاء الاصطناعي, تسويق رقمي, بوت واتساب, أتمتة الأعمال, أتمتة التسويق, تصميم مواقع, تحسين الظهور الرقمي, السعودية, جدة, مكة">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Blumark24">
+<meta name="theme-color" content="#0A0F2C">
+<link rel="canonical" href="https://blumark24.github.io/Blumark24/">
+<link rel="icon" type="image/png" href="assets/branding/blumark24-logo.png?v=40">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:site_name" content="Blumark24">
+<meta property="og:title" content="Blumark24 | حلول الذكاء الاصطناعي والتسويق الرقمي في السعودية">
+<meta property="og:description" content="نساعد الشركات في السعودية على النمو عبر حلول AI، بوتات واتساب، أتمتة التسويق والمبيعات، وتصميم مواقع احترافية.">
+<meta property="og:url" content="https://blumark24.github.io/Blumark24/">
+<meta property="og:image" content="https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo.png?v=40">
+<meta property="og:image:alt" content="Blumark24 - حلول الذكاء الاصطناعي والتسويق الرقمي">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blumark24 | حلول الذكاء الاصطناعي والتسويق الرقمي">
+<meta name="twitter:description" content="حلول AI وأتمتة وتسويق رقمي للشركات في السعودية.">
+<meta name="twitter:image" content="https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo.png?v=40">
+<meta name="twitter:image:alt" content="Blumark24">
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -24,7 +45,9 @@
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; max-width: 100%; overflow-x: hidden; }
+
+  img { max-width: 100%; }
 
   body {
     font-family: 'Cairo', 'Tajawal', sans-serif;
@@ -58,7 +81,7 @@
 
   /* GLASSMORPHISM */
   .glass {
-    background: rgba(255,255,255,0.04);
+    background: rgba(10,22,40,.72);
     backdrop-filter: blur(28px) saturate(180%);
     -webkit-backdrop-filter: blur(28px) saturate(180%);
     border: 1px solid rgba(0,168,255,0.2);
@@ -186,15 +209,25 @@
 
   /* NAVBAR */
   #navbar {
-    position: fixed; top: 0; left: 0; right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
-    transition: all 0.4s ease;
+    transition: all .35s ease;
+    background: rgba(10,22,40,.72);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    border-bottom: 1px solid rgba(0,168,255,.10);
   }
   #navbar.scrolled {
-    background: rgba(10,15,44,0.9);
-    backdrop-filter: blur(32px);
-    border-bottom: 1px solid rgba(0,168,255,0.2);
-    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+    background: rgba(10,15,44,.92);
+    border-bottom: 1px solid rgba(0,168,255,.22);
+    box-shadow: 0 12px 35px rgba(0,0,0,.35);
+  }
+
+  nav a {
+    text-decoration: none;
   }
 
   /* PRICING CARDS */
@@ -259,6 +292,88 @@
   /* ARABIC PATTERN */
   .arabic-pattern {
     background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300A8FF' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+
+
+  .site-header-row {
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    min-height: 76px;
+  }
+
+  .logo-lockup {
+    display: inline-flex;
+    align-items: center;
+    min-width: fit-content;
+    text-decoration: none;
+  }
+
+  .brand-logo {
+    height: auto;
+    width: 190px;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 0 14px rgba(0,168,255,.18));
+  }
+
+  .footer-logo {
+    height: auto;
+    width: 190px;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 0 12px rgba(0,168,255,.14));
+  }
+
+  .menu-button {
+    backdrop-filter: blur(14px);
+    width: 52px;
+    height: 52px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgba(10,22,40,.72);
+    border:1px solid rgba(34,211,238,.22);
+    box-shadow:0 0 24px rgba(34,211,238,.12);
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    direction: ltr;
+    flex-wrap: wrap;
+  }
+
+  .social-link {
+    backdrop-filter:blur(12px);
+    width:48px;
+    height:48px;
+    border-radius:16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #EAF6FF;
+    background: rgba(0,168,255,0.08);
+    border:1px solid rgba(34,211,238,.22);
+    box-shadow: 0 0 18px rgba(0,168,255,0.16);
+    transition: transform .2s ease, border-color .2s ease, background .2s ease;
+  }
+
+  .social-link i { font-size:22px; color:#fff; }
+
+  .social-link:hover {
+    transform: translateY(-2px);
+    background: rgba(0,168,255,0.14);
+    border-color:#22D3EE;
+    box-shadow:0 0 18px rgba(34,211,238,.22);
   }
 
   /* MOBILE MENU */
@@ -327,6 +442,40 @@
   .bento-tall { grid-row: span 2; }
 
   @media (max-width: 768px) {
+    .brand-logo {
+      width:160px;
+      height:auto;
+    }
+
+    .footer-logo {
+      height: 40px;
+      max-width: 165px;
+    }
+
+    .menu-button {
+    backdrop-filter: blur(14px);
+      width: 50px;
+      height: 50px;
+      border-radius: 15px;
+    }
+
+    .social-links {
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .social-link {
+    backdrop-filter:blur(12px);
+      width: 44px;
+      height: 44px;
+      border-radius: 13px;
+    }
+
+    .social-link svg {
+      width: 20px;
+      height: 20px;
+    }
+
     .bento-grid { grid-template-columns: 1fr; }
     .bento-wide, .bento-tall { grid-column: span 1; grid-row: span 1; }
     .pricing-growth { transform: scale(1); }
@@ -347,7 +496,7 @@
 
   /* INPUT */
   input, textarea {
-    background: rgba(255,255,255,0.04);
+    background: rgba(10,22,40,.72);
     border: 1px solid rgba(0,168,255,0.25);
     color: white;
     outline: none;
@@ -376,11 +525,59 @@
     border: 1px solid rgba(0,168,255,0.2);
   }
 
-  @media (max-width: 640px) {
+  .whatsapp-float {
+    position: fixed;
+    left: 24px;
+    bottom: 24px;
+    z-index: 999;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 18px;
+    border-radius: 999px;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    background: linear-gradient(135deg, #00A8FF, #0077CC);
+    border: 1px solid rgba(255,255,255,.16);
+    box-shadow: 0 18px 45px rgba(0,168,255,.28);
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+
+  .whatsapp-float:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 24px 60px rgba(0,168,255,.38);
+  }
+
+  @media (max-width: 768px) {
+  .whatsapp-float {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
     .hero-title { font-size: 2rem !important; }
     .hero-sub { font-size: 1rem !important; }
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Blumark24",
+  "alternateName": "بلومارك 24",
+  "url": "https://blumark24.github.io/Blumark24/",
+  "logo": "https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo.png?v=40",
+  "description": "شركة سعودية تقدم حلول الذكاء الاصطناعي، التسويق الرقمي، بوتات واتساب AI، أتمتة الأعمال، وتصميم المواقع الاحترافية.",
+  "areaServed": {"@type": "Country", "name": "Saudi Arabia"},
+  "contactPoint": {"@type": "ContactPoint", "telephone": "+966507006849", "contactType": "customer support", "areaServed": "SA", "availableLanguage": ["Arabic", "English"]},
+  "sameAs": ["https://www.instagram.com/blumark.sa"]
+}
+</script>
+
 </head>
 <body class="arabic-pattern">
 
@@ -391,65 +588,27 @@
 <div class="light-orb" id="light-orb"></div>
 
 <!-- ══════════════════════════════════════ NAVBAR ══════════════════════════════════════ -->
-<nav id="navbar" class="py-4">
+<nav id="navbar" class="py-3">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between">
-      <!-- Logo -->
+    <div class="site-header-row">
+      <a href="#hero" class="logo-lockup" aria-label="Blumark24">
+        <img src="assets/branding/blumark24-logo.png" alt="Blumark24" class="brand-logo" width="190" height="60">
+      </a>
+      <div class="hidden lg:flex items-center gap-7" style="direction:rtl;">
+        <a href="#hero" class="text-sm text-slate-200 hover:text-cyan-300">الرئيسية</a><a href="#services" class="text-sm text-slate-200 hover:text-cyan-300">خدماتنا</a><a href="#pricing" class="text-sm text-slate-200 hover:text-cyan-300">الباقات</a><a href="#why" class="text-sm text-slate-200 hover:text-cyan-300">لماذا Blumark</a><a href="#testimonials" class="text-sm text-slate-200 hover:text-cyan-300">آراء العملاء</a><a href="#contact" class="text-sm text-slate-200 hover:text-cyan-300">اتصل بنا</a>
+      </div>
       <div class="flex items-center gap-3">
-        <div class="relative">
-          <div class="w-12 h-12 rounded-xl flex items-center justify-center neon-border" style="background: rgba(0,168,255,0.1)">
-            <svg width="28" height="28" viewBox="0 0 40 40" fill="none">
-              <path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#00A8FF" stroke-width="1.5" fill="rgba(0,168,255,0.1)"/>
-              <circle cx="20" cy="20" r="6" fill="#00A8FF" opacity="0.8"/>
-              <path d="M20 4V14M20 26V36M4 12L14 17M26 23L36 28M4 28L14 23M26 17L36 12" stroke="#00A8FF" stroke-width="1" opacity="0.5"/>
-            </svg>
-          </div>
-        </div>
-        <div>
-          <div class="text-xl font-black tracking-wide" style="color: #00A8FF; text-shadow: 0 0 15px rgba(0,168,255,0.5)">Blumark</div>
-          <div class="text-xs font-light tracking-widest text-gray-400" style="font-size: 9px">MARKETING AGENCY</div>
-        </div>
-      </div>
-
-      <!-- Desktop Nav -->
-      <div class="hidden lg:flex items-center gap-8">
-        <a href="#hero" class="text-sm text-gray-300 hover:text-white transition-colors hover:text-[#00A8FF]">الرئيسية</a>
-        <a href="#services" class="text-sm text-gray-300 hover:text-[#00A8FF] transition-colors">خدماتنا</a>
-        <a href="#pricing" class="text-sm text-gray-300 hover:text-[#00A8FF] transition-colors">الباقات</a>
-        <a href="#why" class="text-sm text-gray-300 hover:text-[#00A8FF] transition-colors">لماذا Blumark</a>
-        <a href="#testimonials" class="text-sm text-gray-300 hover:text-[#00A8FF] transition-colors">آراء العملاء</a>
-        <a href="#contact" class="text-sm text-gray-300 hover:text-[#00A8FF] transition-colors">اتصل بنا</a>
-      </div>
-
-      <!-- CTA -->
-      <div class="flex items-center gap-3">
-        <a href="https://wa.me/966507006849?text=أريد الاستفسار عن خدمات Blumark" target="_blank"
-           class="btn-primary hidden sm:flex items-center gap-2 px-5 py-2.5 rounded-xl text-white text-sm font-bold">
-          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          ابدأ مشروعك الآن
-        </a>
-        <!-- Mobile Menu Toggle -->
-        <button id="menu-toggle" class="lg:hidden p-2 rounded-lg glass" onclick="toggleMenu()">
-          <svg class="w-5 h-5 text-[#00A8FF]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-        </button>
-      </div>
-    </div>
-
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="lg:hidden mt-4 pb-4 border-t border-[rgba(0,168,255,0.1)]">
-      <div class="flex flex-col gap-3 pt-4">
-        <a href="#hero" class="text-gray-300 hover:text-[#00A8FF] py-2" onclick="closeMenu()">الرئيسية</a>
-        <a href="#services" class="text-gray-300 hover:text-[#00A8FF] py-2" onclick="closeMenu()">خدماتنا</a>
-        <a href="#pricing" class="text-gray-300 hover:text-[#00A8FF] py-2" onclick="closeMenu()">الباقات</a>
-        <a href="#why" class="text-gray-300 hover:text-[#00A8FF] py-2" onclick="closeMenu()">لماذا Blumark</a>
-        <a href="#testimonials" class="text-gray-300 hover:text-[#00A8FF] py-2" onclick="closeMenu()">آراء العملاء</a>
-        <a href="#contact" class="text-gray-300 hover:text-[#00A8FF] py-2" onclick="closeMenu()">اتصل بنا</a>
-        <a href="https://wa.me/966507006849" target="_blank" class="btn-primary flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-white text-sm font-bold mt-2">
-          ابدأ مشروعك الآن
-        </a>
+        <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer" class="btn-primary hidden sm:flex items-center gap-2 px-5 py-2.5 rounded-xl text-white text-sm font-bold">ابدأ مشروعك الآن</a>
+        <button id="menu-toggle" class="menu-button lg:hidden" onclick="toggleMenu()" aria-label="فتح وإغلاق القائمة"><svg class="w-5 h-5 text-cyan-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
       </div>
     </div>
   </div>
+  <aside id="mobile-menu" class="fixed top-0 right-0 h-screen w-[86vw] max-w-sm p-6 z-[1100]" style="background:rgba(10,22,40,.94);backdrop-filter:blur(20px);border-left:1px solid rgba(34,211,238,.18)">
+    <div class="flex items-center justify-between mb-8"><img src="assets/branding/blumark24-logo.png" alt="Blumark24" class="brand-logo" width="160" height="52"><button onclick="closeMenu()" class="menu-button" aria-label="إغلاق القائمة"><i class="fa-solid fa-xmark text-cyan-300"></i></button></div>
+    <div class="flex flex-col gap-3 text-right"><a href="#hero" onclick="closeMenu()" class="text-slate-100 py-2">الرئيسية</a><a href="#services" onclick="closeMenu()" class="text-slate-100 py-2">خدماتنا</a><a href="#pricing" onclick="closeMenu()" class="text-slate-100 py-2">الباقات</a><a href="#why" onclick="closeMenu()" class="text-slate-100 py-2">لماذا Blumark</a><a href="#testimonials" onclick="closeMenu()" class="text-slate-100 py-2">آراء العملاء</a><a href="#contact" onclick="closeMenu()" class="text-slate-100 py-2">اتصل بنا</a></div>
+    <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer" class="btn-primary mt-6 w-full flex justify-center py-3 rounded-xl font-bold">ابدأ مشروعك الآن</a>
+    <div class="mt-10"><p class="text-cyan-300 mb-4">تواصل معنا</p><div class="social-links"><a href="https://www.instagram.com/blumark24?igsh=eDM3a2VycGFwcnlo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link"><i class="fa-brands fa-instagram"></i></a><a href="https://x.com/blumark24?s=21" target="_blank" rel="noopener noreferrer" aria-label="X" class="social-link"><i class="fa-brands fa-x-twitter"></i></a><a href="https://www.linkedin.com/company/blumark24ksa/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://www.tiktok.com/@blumark24?_r=1&_t=ZS-95yQcm1ZBxZ" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-link"><i class="fa-brands fa-tiktok"></i></a></div></div>
+  </aside>
 </nav>
 
 <!-- ══════════════════════════════════════ HERO ══════════════════════════════════════ -->
@@ -485,11 +644,7 @@
     </div>
 
     <!-- Main Title -->
-    <h1 class="hero-title text-4xl md:text-6xl lg:text-7xl font-black leading-tight mb-6 fade-up delay-1">
-      <span class="gradient-text">3 باقات..</span><br>
-      <span class="text-white">حلول تواكب نجاحك</span><br>
-      <span class="neon-text" style="font-size: 0.85em">بالذكاء الاصطناعي</span>
-    </h1>
+    <h1 class="hero-title text-4xl md:text-6xl lg:text-7xl font-black leading-tight mb-6 fade-up delay-1">حوّل نشاطك إلى نظام ذكي ينمو ويبيع تلقائياً</h1>
 
     <!-- Sub -->
     <p class="hero-sub text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed fade-up delay-2">
@@ -498,7 +653,7 @@
 
     <!-- CTAs -->
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center fade-up delay-3">
-      <a href="https://wa.me/966507006849?text=أريد احجز استشارة مجانية" target="_blank"
+      <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer"
          class="btn-primary flex items-center gap-3 px-8 py-4 rounded-2xl text-white text-lg font-bold pulse-anim">
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         احجز استشارة مجانية
@@ -723,7 +878,7 @@
           مدة التنفيذ: 3-2 أيام
         </div>
 
-        <a href="https://wa.me/966507006849?text=أريد الاشتراك في باقة START" target="_blank"
+        <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer"
            class="w-full block text-center py-3 rounded-2xl font-bold text-white transition-all hover:scale-105"
            style="background: rgba(16,185,129,0.2); border: 1px solid rgba(16,185,129,0.4); hover:background: rgba(16,185,129,0.3)">
           ابدأ الآن
@@ -814,7 +969,7 @@
           مدة التنفيذ: 7-3 أيام
         </div>
 
-        <a href="https://wa.me/966507006849?text=أريد الاشتراك في باقة GROWTH" target="_blank"
+        <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer"
            class="btn-primary w-full block text-center py-3.5 rounded-2xl font-black text-white text-base pulse-anim">
           اشترك الآن — الأكثر طلباً 🔥
         </a>
@@ -899,7 +1054,7 @@
           مدة التنفيذ: 5-10 أيام
         </div>
 
-        <a href="https://wa.me/966500000000?text=أريد الاشتراك في باقة PRO MAX" target="_blank"
+        <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer"
            class="w-full block text-center py-3 rounded-2xl font-bold text-white transition-all hover:scale-105"
            style="background: linear-gradient(135deg, rgba(30,58,138,0.5), rgba(0,168,255,0.2)); border: 1px solid rgba(0,168,255,0.4)">
           احصل على PRO MAX 👑
@@ -1015,7 +1170,7 @@
 </section>
 
 <!-- ══════════════════════════════════════ HOW IT WORKS ══════════════════════════════════════ -->
-<section class="py-24 relative z-10">
+<section id="process" class="py-24 relative z-10">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16 reveal">
       <div class="inline-block px-4 py-1.5 rounded-full glass neon-border text-sm text-[#00A8FF] font-semibold mb-4">كيف يعمل؟</div>
@@ -1204,7 +1359,7 @@
         </div>
       </div>
 
-      <a href="https://wa.me/966507006849?text=أريد أعرف كيف Blumark تساعدني في التحول الرقمي" target="_blank"
+      <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer"
          class="btn-primary inline-flex items-center gap-3 px-8 py-4 rounded-2xl text-white font-bold text-lg">
         انضم لمسيرة التحول الرقمي 🇸🇦
       </a>
@@ -1226,11 +1381,11 @@
       <div class="glass-card rounded-3xl p-8 reveal reveal-right">
         <h3 class="text-xl font-black text-white mb-6">أرسل رسالتك</h3>
         <div class="space-y-4">
-          <input type="text" placeholder="اسمك الكريم" class="w-full px-4 py-3 rounded-xl text-sm" style="background: rgba(255,255,255,0.04); border: 1px solid rgba(0,168,255,0.2); color: white">
-          <input type="tel" placeholder="رقم جوالك" class="w-full px-4 py-3 rounded-xl text-sm" style="background: rgba(255,255,255,0.04); border: 1px solid rgba(0,168,255,0.2); color: white">
-          <input type="text" placeholder="نشاطك التجاري" class="w-full px-4 py-3 rounded-xl text-sm" style="background: rgba(255,255,255,0.04); border: 1px solid rgba(0,168,255,0.2); color: white">
-          <textarea placeholder="كيف نساعدك؟" rows="4" class="w-full px-4 py-3 rounded-xl text-sm resize-none" style="background: rgba(255,255,255,0.04); border: 1px solid rgba(0,168,255,0.2); color: white"></textarea>
-          <a href="https://wa.me/966507006849" target="_blank"
+          <input type="text" placeholder="اسمك الكريم" class="w-full px-4 py-3 rounded-xl text-sm" style="background: rgba(10,22,40,.72); border: 1px solid rgba(0,168,255,0.2); color: white">
+          <input type="tel" placeholder="رقم جوالك" class="w-full px-4 py-3 rounded-xl text-sm" style="background: rgba(10,22,40,.72); border: 1px solid rgba(0,168,255,0.2); color: white">
+          <input type="text" placeholder="نشاطك التجاري" class="w-full px-4 py-3 rounded-xl text-sm" style="background: rgba(10,22,40,.72); border: 1px solid rgba(0,168,255,0.2); color: white">
+          <textarea placeholder="كيف نساعدك؟" rows="4" class="w-full px-4 py-3 rounded-xl text-sm resize-none" style="background: rgba(10,22,40,.72); border: 1px solid rgba(0,168,255,0.2); color: white"></textarea>
+          <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer"
              class="btn-primary w-full flex items-center justify-center gap-3 py-3.5 rounded-xl text-white font-bold">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
             أرسل عبر واتساب
@@ -1244,7 +1399,7 @@
           <div class="w-12 h-12 rounded-xl flex items-center justify-center text-xl" style="background: rgba(0,168,255,0.15); border: 1px solid rgba(0,168,255,0.3)">💬</div>
           <div>
             <div class="font-bold text-white text-sm">واتساب</div>
-            <div class="text-[#00A8FF] text-sm">+966 50 700 6849</div>
+            <div class="text-[#00A8FF] text-sm">0507006849</div>
           </div>
         </div>
         <div class="glass-card rounded-2xl p-5 flex items-center gap-4">
@@ -1272,7 +1427,7 @@
         <!-- Final CTA -->
         <div class="glass-card rounded-2xl p-6 text-center" style="background: linear-gradient(135deg, rgba(0,168,255,0.1), rgba(30,58,138,0.1))">
           <p class="text-gray-300 text-sm mb-4">ابدأ اليوم واحصل على <span class="neon-text font-bold">استشارة مجانية</span> مع خبرائنا</p>
-          <a href="https://wa.me/966507006849?text=أريد استشارة مجانية" target="_blank"
+          <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer"
              class="btn-primary inline-flex items-center gap-2 px-6 py-3 rounded-xl text-white font-bold text-sm">
             احجز استشارتك المجانية الآن
           </a>
@@ -1283,111 +1438,25 @@
 </section>
 
 <!-- ══════════════════════════════════════ FOOTER ══════════════════════════════════════ -->
-<footer class="relative z-10 py-12 border-t border-[rgba(0,168,255,0.1)]">
+<footer class="relative z-10 py-14 border-t border-[rgba(34,211,238,.18)]" style="background:rgba(10,22,40,.55);backdrop-filter:blur(18px)">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
-      <!-- Brand -->
-      <div class="md:col-span-2">
-        <div class="flex items-center gap-3 mb-4">
-          <div class="w-10 h-10 rounded-xl flex items-center justify-center neon-border" style="background: rgba(0,168,255,0.1)">
-            <svg width="20" height="20" viewBox="0 0 40 40" fill="none">
-              <path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="#00A8FF" stroke-width="2" fill="rgba(0,168,255,0.1)"/>
-              <circle cx="20" cy="20" r="6" fill="#00A8FF" opacity="0.8"/>
-            </svg>
-          </div>
-          <div>
-            <div class="text-lg font-black" style="color: #00A8FF">Blumark</div>
-            <div class="text-xs text-gray-500" style="font-size: 8px; letter-spacing: 2px">MARKETING AGENCY</div>
-          </div>
-        </div>
-        <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
-          وكالة تسويق رقمي سعودية متخصصة في حلول الذكاء الاصطناعي لتحويل الأعمال ومواكبة رؤية 2030
-        </p>
-        <div class="flex gap-3 mt-5">
-          <a href="#" class="w-9 h-9 rounded-xl flex items-center justify-center glass neon-border hover:scale-110 transition-transform text-sm">📷</a>
-          <a href="#" class="w-9 h-9 rounded-xl flex items-center justify-center glass neon-border hover:scale-110 transition-transform text-sm">🐦</a>
-          <a href="#" class="w-9 h-9 rounded-xl flex items-center justify-center glass neon-border hover:scale-110 transition-transform text-sm">💼</a>
-          <a href="https://wa.me/966507006849" target="_blank" class="w-9 h-9 rounded-xl flex items-center justify-center glass neon-border hover:scale-110 transition-transform text-sm">💬</a>
-        </div>
-      </div>
-
-      <!-- Links -->
-      <div>
-        <h4 class="font-black text-white mb-4 text-sm">الخدمات</h4>
-        <ul class="space-y-2 text-sm text-gray-400">
-          <li><a href="#" class="hover:text-[#00A8FF] transition-colors">تصميم المواقع</a></li>
-          <li><a href="#" class="hover:text-[#00A8FF] transition-colors">بوت واتساب الذكي</a></li>
-          <li><a href="#" class="hover:text-[#00A8FF] transition-colors">المنيو الرقمي</a></li>
-          <li><a href="#" class="hover:text-[#00A8FF] transition-colors">CRM وإدارة العملاء</a></li>
-          <li><a href="#" class="hover:text-[#00A8FF] transition-colors">تقارير AI</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="font-black text-white mb-4 text-sm">الباقات</h4>
-        <ul class="space-y-2 text-sm text-gray-400">
-          <li><a href="#pricing" class="hover:text-[#10B981] transition-colors">START — 399 ريال</a></li>
-          <li><a href="#pricing" class="hover:text-[#00A8FF] transition-colors">GROWTH — 999 ريال</a></li>
-          <li><a href="#pricing" class="hover:text-[#00A8FF] transition-colors">PRO MAX — 1999 ريال</a></li>
-          <li><a href="#contact" class="hover:text-[#FF7A00] transition-colors">استشارة مجانية</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="neon-divider mb-6"></div>
-
-    <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-      <div>© 2026 Blumark Marketing Agency. جميع الحقوق محفوظة 🇸🇦</div>
-      <div class="flex items-center gap-2">
-        <span class="w-2 h-2 bg-[#10B981] rounded-full animate-pulse"></span>
-        <span>جاهزون لخدمتك 24/7</span>
-      </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+      <div><img src="assets/branding/blumark24-logo.png" alt="Blumark24" class="footer-logo" width="190" height="60" loading="lazy"><p class="text-slate-300 text-sm mt-4">Blumark24 منصة حلول ذكاء اصطناعي وتسويق رقمي للشركات الطموحة.</p></div>
+      <div><h4 class="text-white font-bold mb-4">الخدمات</h4><ul class="space-y-2 text-slate-300 text-sm"><li>تصميم المواقع</li><li>بوت واتساب الذكي</li><li>المتجر الرقمي</li><li>CRM</li><li>تقارير AI</li></ul></div>
+      <div><h4 class="text-white font-bold mb-4">الباقات</h4><ul class="space-y-2 text-slate-300 text-sm"><li>START</li><li>GROWTH</li><li>PRO MAX</li></ul></div>
+      <div><h4 class="text-white font-bold mb-4">تواصل معنا</h4><div class="social-links mb-4"><a href="https://www.instagram.com/blumark24?igsh=eDM3a2VycGFwcnlo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link"><i class="fa-brands fa-instagram"></i></a><a href="https://x.com/blumark24?s=21" target="_blank" rel="noopener noreferrer" aria-label="X" class="social-link"><i class="fa-brands fa-x-twitter"></i></a><a href="https://www.linkedin.com/company/blumark24ksa/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://www.tiktok.com/@blumark24?_r=1&_t=ZS-95yQcm1ZBxZ" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-link"><i class="fa-brands fa-tiktok"></i></a></div><p class="text-slate-300 text-sm">WhatsApp: +966 55 123 4567</p><p class="text-slate-300 text-sm">Email: info@blumark24.com</p><p class="text-slate-300 text-sm">Website: https://www.blumark24.com</p></div>
     </div>
   </div>
 </footer>
 
-<!-- ══════════════════════════════════════ AI CHATBOT ══════════════════════════════════════ -->
-<div id="chatbot">
-  <div id="chatbot-panel" class="p-0">
-    <!-- Header -->
-    <div class="p-4 flex items-center justify-between" style="background: linear-gradient(135deg, #00A8FF, #1E3A8A)">
-      <div class="flex items-center gap-3">
-        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-sm">🤖</div>
-        <div>
-          <div class="font-bold text-white text-sm">Blumark AI</div>
-          <div class="text-xs text-blue-100 flex items-center gap-1">
-            <span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
-            متاح الآن
-          </div>
-        </div>
-      </div>
-      <button onclick="closeChat()" class="text-white/70 hover:text-white text-lg">✕</button>
-    </div>
-    <!-- Messages -->
-    <div id="chat-messages" class="p-4 h-48 overflow-y-auto space-y-3">
-      <div class="flex gap-2">
-        <div class="w-7 h-7 rounded-full bg-[#00A8FF] flex items-center justify-center text-xs flex-shrink-0">B</div>
-        <div class="bg-white/10 rounded-2xl rounded-tr-sm px-4 py-2.5 text-sm text-gray-200 max-w-48">
-          أهلاً! 👋 أنا مساعد Blumark الذكي. كيف أساعدك اليوم؟
-        </div>
-      </div>
-      <div class="flex flex-wrap gap-2 mr-9">
-        <button onclick="quickReply('الباقات')" class="px-3 py-1 rounded-full text-xs glass neon-border text-[#00A8FF] hover:bg-[rgba(0,168,255,0.15)] transition-all">الباقات 💰</button>
-        <button onclick="quickReply('الخدمات')" class="px-3 py-1 rounded-full text-xs glass neon-border text-[#00A8FF] hover:bg-[rgba(0,168,255,0.15)] transition-all">الخدمات 🛠️</button>
-        <button onclick="quickReply('استشارة')" class="px-3 py-1 rounded-full text-xs glass neon-border text-[#00A8FF] hover:bg-[rgba(0,168,255,0.15)] transition-all">استشارة مجانية</button>
-      </div>
-    </div>
-    <!-- Input -->
-    <div class="p-3 border-t border-[rgba(0,168,255,0.15)] flex gap-2">
-      <input id="chat-input" type="text" placeholder="اكتب رسالتك..." class="flex-1 px-3 py-2 rounded-xl text-xs" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(0,168,255,0.2); color: white" onkeydown="if(event.key==='Enter')sendChat()">
-      <button onclick="sendChat()" class="btn-primary w-8 h-8 rounded-xl flex items-center justify-center text-white text-sm">➤</button>
-    </div>
-  </div>
-
-  <div id="chatbot-bubble" onclick="toggleChat()">
-    <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
-  </div>
-</div>
+<a
+  href="https://wa.me/966551234567"
+  class="whatsapp-float"
+  target="_blank" rel="noopener noreferrer"
+  aria-label="تواصل مع Blumark24 عبر واتساب"
+>
+  تواصل واتساب
+</a>
 
 <!-- SCRIPTS -->
 <script>
@@ -1486,56 +1555,6 @@ function toggleMenu() {
 }
 function closeMenu() {
   document.getElementById('mobile-menu').classList.remove('open');
-}
-
-// ══════ CHATBOT ══════
-let chatOpen = false;
-function toggleChat() {
-  chatOpen = !chatOpen;
-  document.getElementById('chatbot-panel').classList.toggle('open', chatOpen);
-}
-function closeChat() {
-  chatOpen = false;
-  document.getElementById('chatbot-panel').classList.remove('open');
-}
-
-const responses = {
-  'الباقات': 'لدينا 3 باقات:\n🚀 START: 399 ريال (مرة واحدة)\n📈 GROWTH: 999 ريال/شهر\n👑 PRO MAX: 1999 ريال/شهر\nأي باقة تناسبك؟',
-  'الخدمات': 'نقدم: تصميم مواقع، بوت واتساب ذكي، منيو رقمي للمطاعم، CRM، تقارير AI، وأتمتة كاملة للأعمال!',
-  'استشارة': 'رائع! 🎉 استشارتنا مجانية 100%. سأوصلك لفريقنا الآن عبر واتساب!',
-};
-
-function addMessage(text, isBot = true) {
-  const msgs = document.getElementById('chat-messages');
-  const div = document.createElement('div');
-  div.className = 'flex gap-2' + (isBot ? '' : ' flex-row-reverse');
-  div.innerHTML = isBot
-    ? `<div class="w-7 h-7 rounded-full bg-[#00A8FF] flex items-center justify-center text-xs flex-shrink-0">B</div>
-       <div class="bg-white/10 rounded-2xl rounded-tr-sm px-4 py-2.5 text-xs text-gray-200 max-w-48 whitespace-pre-line">${text}</div>`
-    : `<div class="bg-[rgba(0,168,255,0.2)] rounded-2xl rounded-tl-sm px-4 py-2.5 text-xs text-white max-w-48">${text}</div>`;
-  msgs.appendChild(div);
-  msgs.scrollTop = msgs.scrollHeight;
-}
-
-function quickReply(type) {
-  addMessage(type, false);
-  setTimeout(() => {
-    addMessage(responses[type] || 'شكراً! سيتواصل معك فريقنا قريباً على واتساب.');
-    if (type === 'استشارة') {
-      setTimeout(() => window.open('https://wa.me/966507006849?text=أريد استشارة مجانية', '_blank'), 1500);
-    }
-  }, 500);
-}
-
-function sendChat() {
-  const inp = document.getElementById('chat-input');
-  const text = inp.value.trim();
-  if (!text) return;
-  addMessage(text, false);
-  inp.value = '';
-  setTimeout(() => {
-    addMessage('شكراً على رسالتك! 😊 سيتواصل معك أحد خبرائنا على واتساب في أقرب وقت. أو تواصل معنا مباشرة الآن.');
-  }, 700);
 }
 
 // ══════ SMOOTH SCROLL ══════
