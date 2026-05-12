@@ -12,19 +12,19 @@
 <meta name="author" content="Blumark24">
 <meta name="theme-color" content="#0A0F2C">
 <link rel="canonical" href="https://blumark24.github.io/Blumark24/">
-<link rel="icon" type="image/png" href="assets/branding/blumark24-logo.png?v=40">
+<link rel="icon" type="image/png" href="assets/branding/blumark24-logo-official.png">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ar_SA">
 <meta property="og:site_name" content="Blumark24">
 <meta property="og:title" content="Blumark24 | حلول الذكاء الاصطناعي والتسويق الرقمي في السعودية">
 <meta property="og:description" content="نساعد الشركات في السعودية على النمو عبر حلول AI، بوتات واتساب، أتمتة التسويق والمبيعات، وتصميم مواقع احترافية.">
 <meta property="og:url" content="https://blumark24.github.io/Blumark24/">
-<meta property="og:image" content="https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo.png?v=40">
+<meta property="og:image" content="https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo-official.png">
 <meta property="og:image:alt" content="Blumark24 - حلول الذكاء الاصطناعي والتسويق الرقمي">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Blumark24 | حلول الذكاء الاصطناعي والتسويق الرقمي">
 <meta name="twitter:description" content="حلول AI وأتمتة وتسويق رقمي للشركات في السعودية.">
-<meta name="twitter:image" content="https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo.png?v=40">
+<meta name="twitter:image" content="https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo-official.png">
 <meta name="twitter:image:alt" content="Blumark24">
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -306,29 +306,43 @@
   }
 
   .logo-lockup {
-    display: inline-flex;
-    align-items: center;
-    min-width: fit-content;
-    text-decoration: none;
-  }
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: fit-content;
+  text-decoration: none;
+}
 
-  .brand-logo {
-    height: auto;
-    width: 190px;
-    max-width: 100%;
-    object-fit: contain;
-    display: block;
-    filter: drop-shadow(0 0 14px rgba(0,168,255,.18));
-  }
+.brand-logo {
+  display: block;
+  width: clamp(155px, 17vw, 240px);
+  height: auto;
+  max-height: 74px;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 0 16px rgba(34, 211, 238, 0.16));
+}
 
-  .footer-logo {
-    height: auto;
-    width: 190px;
-    max-width: 100%;
-    object-fit: contain;
-    display: block;
-    filter: drop-shadow(0 0 12px rgba(0,168,255,.14));
-  }
+.mobile-menu-logo {
+  display: block;
+  width: 220px;
+  max-width: 72vw;
+  height: auto;
+  max-height: 76px;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 0 16px rgba(34, 211, 238, 0.16));
+}
+
+.footer-logo {
+  display: block;
+  width: clamp(170px, 18vw, 240px);
+  height: auto;
+  max-height: 78px;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 0 14px rgba(34, 211, 238, 0.14));
+}
 
   .menu-button {
     backdrop-filter: blur(14px);
@@ -443,13 +457,19 @@
 
   @media (max-width: 768px) {
     .brand-logo {
-      width:160px;
-      height:auto;
+      width: 168px;
+      max-height: 58px;
+    }
+
+    .mobile-menu-logo {
+      width: 185px;
+      max-height: 64px;
     }
 
     .footer-logo {
-      height: 40px;
-      max-width: 165px;
+      width: 180px;
+      max-height: 64px;
+      margin-inline: auto;
     }
 
     .menu-button {
@@ -558,6 +578,13 @@
   }
 }
 
+@media (max-width: 390px) {
+  .brand-logo {
+    width: 150px;
+    max-height: 54px;
+  }
+}
+
 @media (max-width: 640px) {
     .hero-title { font-size: 2rem !important; }
     .hero-sub { font-size: 1rem !important; }
@@ -570,7 +597,7 @@
   "name": "Blumark24",
   "alternateName": "بلومارك 24",
   "url": "https://blumark24.github.io/Blumark24/",
-  "logo": "https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo.png?v=40",
+  "logo": "https://blumark24.github.io/Blumark24/assets/branding/blumark24-logo-official.png",
   "description": "شركة سعودية تقدم حلول الذكاء الاصطناعي، التسويق الرقمي، بوتات واتساب AI، أتمتة الأعمال، وتصميم المواقع الاحترافية.",
   "areaServed": {"@type": "Country", "name": "Saudi Arabia"},
   "contactPoint": {"@type": "ContactPoint", "telephone": "+966507006849", "contactType": "customer support", "areaServed": "SA", "availableLanguage": ["Arabic", "English"]},
@@ -592,8 +619,14 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="site-header-row">
       <a href="#hero" class="logo-lockup" aria-label="Blumark24">
-        <img src="assets/branding/blumark24-logo.png" alt="Blumark24" class="brand-logo" width="190" height="60">
-      </a>
+  <img
+    src="assets/branding/blumark24-logo-official.png"
+    alt="Blumark24"
+    class="brand-logo"
+    width="240"
+    height="80"
+  >
+</a>
       <div class="hidden lg:flex items-center gap-7" style="direction:rtl;">
         <a href="#hero" class="text-sm text-slate-200 hover:text-cyan-300">الرئيسية</a><a href="#services" class="text-sm text-slate-200 hover:text-cyan-300">خدماتنا</a><a href="#pricing" class="text-sm text-slate-200 hover:text-cyan-300">الباقات</a><a href="#why" class="text-sm text-slate-200 hover:text-cyan-300">لماذا Blumark</a><a href="#testimonials" class="text-sm text-slate-200 hover:text-cyan-300">آراء العملاء</a><a href="#contact" class="text-sm text-slate-200 hover:text-cyan-300">اتصل بنا</a>
       </div>
@@ -604,7 +637,7 @@
     </div>
   </div>
   <aside id="mobile-menu" class="fixed top-0 right-0 h-screen w-[86vw] max-w-sm p-6 z-[1100]" style="background:rgba(10,22,40,.94);backdrop-filter:blur(20px);border-left:1px solid rgba(34,211,238,.18)">
-    <div class="flex items-center justify-between mb-8"><img src="assets/branding/blumark24-logo.png" alt="Blumark24" class="brand-logo" width="160" height="52"><button onclick="closeMenu()" class="menu-button" aria-label="إغلاق القائمة"><i class="fa-solid fa-xmark text-cyan-300"></i></button></div>
+    <div class="flex items-center justify-between mb-8"><img src="assets/branding/blumark24-logo-official.png" alt="Blumark24" class="mobile-menu-logo" width="220" height="72"><button onclick="closeMenu()" class="menu-button" aria-label="إغلاق القائمة"><i class="fa-solid fa-xmark text-cyan-300"></i></button></div>
     <div class="flex flex-col gap-3 text-right"><a href="#hero" onclick="closeMenu()" class="text-slate-100 py-2">الرئيسية</a><a href="#services" onclick="closeMenu()" class="text-slate-100 py-2">خدماتنا</a><a href="#pricing" onclick="closeMenu()" class="text-slate-100 py-2">الباقات</a><a href="#why" onclick="closeMenu()" class="text-slate-100 py-2">لماذا Blumark</a><a href="#testimonials" onclick="closeMenu()" class="text-slate-100 py-2">آراء العملاء</a><a href="#contact" onclick="closeMenu()" class="text-slate-100 py-2">اتصل بنا</a></div>
     <a href="https://wa.me/966551234567" target="_blank" rel="noopener noreferrer" class="btn-primary mt-6 w-full flex justify-center py-3 rounded-xl font-bold">ابدأ مشروعك الآن</a>
     <div class="mt-10"><p class="text-cyan-300 mb-4">تواصل معنا</p><div class="social-links"><a href="https://www.instagram.com/blumark24?igsh=eDM3a2VycGFwcnlo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link"><i class="fa-brands fa-instagram"></i></a><a href="https://x.com/blumark24?s=21" target="_blank" rel="noopener noreferrer" aria-label="X" class="social-link"><i class="fa-brands fa-x-twitter"></i></a><a href="https://www.linkedin.com/company/blumark24ksa/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://www.tiktok.com/@blumark24?_r=1&_t=ZS-95yQcm1ZBxZ" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-link"><i class="fa-brands fa-tiktok"></i></a></div></div>
@@ -1441,7 +1474,14 @@
 <footer class="relative z-10 py-14 border-t border-[rgba(34,211,238,.18)]" style="background:rgba(10,22,40,.55);backdrop-filter:blur(18px)">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
-      <div><img src="assets/branding/blumark24-logo.png" alt="Blumark24" class="footer-logo" width="190" height="60" loading="lazy"><p class="text-slate-300 text-sm mt-4">Blumark24 منصة حلول ذكاء اصطناعي وتسويق رقمي للشركات الطموحة.</p></div>
+      <div><img
+  src="assets/branding/blumark24-logo-official.png"
+  alt="Blumark24"
+  class="footer-logo"
+  width="220"
+  height="72"
+  loading="lazy"
+><p class="text-slate-300 text-sm mt-4">Blumark24 منصة حلول ذكاء اصطناعي وتسويق رقمي للشركات الطموحة.</p></div>
       <div><h4 class="text-white font-bold mb-4">الخدمات</h4><ul class="space-y-2 text-slate-300 text-sm"><li>تصميم المواقع</li><li>بوت واتساب الذكي</li><li>المتجر الرقمي</li><li>CRM</li><li>تقارير AI</li></ul></div>
       <div><h4 class="text-white font-bold mb-4">الباقات</h4><ul class="space-y-2 text-slate-300 text-sm"><li>START</li><li>GROWTH</li><li>PRO MAX</li></ul></div>
       <div><h4 class="text-white font-bold mb-4">تواصل معنا</h4><div class="social-links mb-4"><a href="https://www.instagram.com/blumark24?igsh=eDM3a2VycGFwcnlo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link"><i class="fa-brands fa-instagram"></i></a><a href="https://x.com/blumark24?s=21" target="_blank" rel="noopener noreferrer" aria-label="X" class="social-link"><i class="fa-brands fa-x-twitter"></i></a><a href="https://www.linkedin.com/company/blumark24ksa/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://www.tiktok.com/@blumark24?_r=1&_t=ZS-95yQcm1ZBxZ" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-link"><i class="fa-brands fa-tiktok"></i></a></div><p class="text-slate-300 text-sm">WhatsApp: +966 55 123 4567</p><p class="text-slate-300 text-sm">Email: info@blumark24.com</p><p class="text-slate-300 text-sm">Website: https://www.blumark24.com</p></div>
